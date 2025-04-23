@@ -3,7 +3,7 @@ const gameBoard = document.querySelector(".game-board");
 window.addEventListener("DOMContentLoaded", bodyState);
 
 
-let redTime = false;
+let redTime = false
 function bodyState() {
     if (redTime) {
         body.style.background = "red";
@@ -11,7 +11,7 @@ function bodyState() {
     else {
         body.style.background = "blueviolet";
     }
-}
+}  
 
 for (let i = 1; i <= 9; i++) {
     const div = document.createElement("div");
